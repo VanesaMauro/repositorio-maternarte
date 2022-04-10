@@ -32,7 +32,14 @@ body {
     margin: 50px auto 20px auto;
     text-shadow: 2x 2px 2px 2px black;
 }
-
+.animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+    --animate-delay: 1s;
+}
+.animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+    --animate-delay: 3s;
+}
 hr {
     border-color: #e79755;
     border-width: 2px;
@@ -67,6 +74,11 @@ hr {
     align-items: center;
     justify-items: center;
     border-bottom: none;
+    transition-property: background-image;
+}
+.menu nav ul li:hover {
+    background-image: none;
+    background-color: #dcd0af;
 }
 
 .menu nav ul li a {
