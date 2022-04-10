@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaternArte</title>
+    <link rel="shortcut icon" href="../images/icon-corazón-114702392.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>MarternArte</h1>
+            <h2>El arte de ser mamá</h2>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">MaternArte</a></li>
+                    <li><a href="./informarte.html">InformArte</a></li>
+                    <li><a href="#">SanArte</a></li>
+                    <li><a href="./conectarte.html">EncontrArte</a></li>
+                    <li><a href="./empoderarte.html">EmpoderArte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+
+    <section class="entrevista">
+        <div class="entrevtitulo">
+            <h2>Reserva tu primer entrevista psicologica gratuita</h2>
+        </div>
+        <div class="entrevparrafo">
+            <p>Para ello, te pedimos que completes todos los campos del siguiente formulario con tus datos, y
+                selecciones en el calendario una fecha y horario segun disponibilidad. Al finalizar, <strong>recibiras
+                    un email</strong> a tu correo confirmando la reserva y el dia previo a la entrevista se te enviara
+                un link de zoom para que puedas conectarte con la profesional en el dia y horario que has reservado. Es
+                muy importante que ese dia revises tu casilla de mail y <strong>confirmes la reserva</strong>, ya que
+                para ello contaras con un plazo de 24 hs. De lo contrario, sera cancelada de forma automatica.</p>
+        </div>
+
+        <form action="" class="entrevistaFormulario">
+            <div class="entrevistaFormularioNombre">
+                <label for="Nombre y Apellido">Nombre y Apellido</label>
+                <input type="text" id="Nombre y Apellido" name="Nombre y Apellido"
+                    placeholder="Ingrese su nombre y apellido" required>
+            </div>
+            <br>
+            <div class="entrevistaFormularioEmail">
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="Email" placeholder="Ingrese su Email" required>
+            </div>
+            <br>
+            <div class="entrevistaFormularioConsulta">
+                <label for="Motivo de consulta>">Motivo de consulta</label>
+                <textarea name="Motivo de consulta" id="Motivo de consulta" cols="30" rows="10" required></textarea>
+            </div>
+            <br>
+            <div class="entrevistaFormularioUrgencia">
+                La consulta tiene caracter de urgencia?
+                <input type="radio" name="urgencia" value="1"> Si
+                <input type="radio" name="urgencia" value="2"> No
+            </div>
+            <br>
+            <div class="entrevistaFormularioTerminos">
+                <input type="checkbox" name="terminos">Acepto Terminos y Condiciones
+            </div>
+            <div class="entrevistaFormularioBotones">
+                <input type="submit" value="Reservar entrevista">
+                <input type="reset" value="Borrar todo">
+            </div>
+        </form>
+    </section>
+
+    <br>
+
+    <hr>
+
+    <footer>Copyright © 2022. All rights reserved</footer>
+
+</body>
+
+</html>

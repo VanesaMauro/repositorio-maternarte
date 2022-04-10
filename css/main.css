@@ -1,0 +1,839 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* imagen para el cuerpo de todas las paginas */
+    background-color: antiquewhite;
+    background-size: cover;
+}
+
+#logo {
+    /* Logo de inicio que se repite en todas las paginas*/
+    text-align: left;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    background-image: url(../images/logo3.jpg);
+    background-size: 1400px;
+    height: 400px;
+    padding: 30px 50px;
+    margin: 10px 10px 5px 10px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: #e18234;
+    text-decoration: underline #e18234;
+    text-shadow: 2x 2px 2px 2px black;
+}
+
+#logo h2 {
+    font-size: 50px;
+    margin: 50px auto 20px auto;
+    text-shadow: 2x 2px 2px 2px black;
+}
+
+hr {
+    border-color: #e79755;
+    border-width: 2px;
+}
+
+.menu {
+    /* inicio menu */
+    padding: 0px 20px;
+    margin: 0px 10px;
+    font-family: 'lora';
+    font-style: italic;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav ul li {
+    list-style: none;
+    display: inline;
+    background-color: #e7b54a;
+    background-image: url(../images/textura.png);
+    margin: 5px 5px 0px 5px;
+    text-align: center;
+    border: 3px outset #e18234;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-bottom: none;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px #e18234;
+    width: 100%;
+}
+
+.menu nav ul li a:hover {
+    /*fin de menu*/
+    text-shadow: 2px #e18234;
+    letter-spacing: 1px;
+}
+
+.bienvenida .bienvenidaTitulo {
+    /*inicio mensaje de bienvenida*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: #e79755;
+    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bienvenida .bienvenidaParrafo {
+    /*fin de mensaje bienvenida*/
+    font-family: 'lora';
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    margin: 40px 10px 60px 10px;
+}
+
+.mensajeinicial h2 {
+    /* inicio las dos preguntas y los dos bloques de parrafo que comparten iguales propiedades */
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 181, 74);
+    margin-left: 10px;
+}
+
+.mensajeinicial .parrafo {
+    /*fin preguntas con bloques de parrafo*/
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.buscartribu {
+    /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
+    font-family: 'lora';
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    border-style: outset;
+    border-color: #e18234;
+    border-radius: 10px;
+    border-width: 4px;
+    background-image: url(../images/tribu.jpg);
+    background-size: contain;
+    height: 200px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.buscartribu h3 {
+    color: brown;
+    border-style: none;
+    background-color: #e7b54a;
+    background-image: url(../images/textura.png);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.buscartribu .linktribu {
+    /*fin cajita para buscar tribu*/
+    background-color: #e7b54a;
+    margin: 80px;
+    padding: 5px;
+    background-position: center;
+    border-style: outset;
+    border-radius: 5px;
+    border-color: #e18234;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'lora';
+    margin: 15px 25px; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+    gap: 5px;
+}
+
+.contenedor header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.contenedor section .bienvenida {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.contenedor section .mensajeinicial {
+    grid-column: span 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.contenedor .buscartribu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.contenedor aside {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-start: 3;
+}
+.contenedor .asides {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 30px 15px;
+}
+
+
+.contenedor .encuentros {
+    font-family: 'lora';
+    font-size: 16px;
+    background-image: url(../images/textura.png);
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: center;
+    border-color: #e79755;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.contenedor .entrevistapsi {
+    font-family: 'lora';
+    font-size: 16px;
+    background-image: url(../images/textura.png);
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    height: 400px ;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: center;
+    border-color: #e79755;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.contenedor .discord {
+    font-family: 'lora';
+    font-size: 16px;
+    background-image: url(../images/textura.png);
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: center;
+    border-color: #e79755;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.entrevista h2 { /*comienzo de css APARTADO SANARTE*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: #e79755;
+    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.entrevista p {
+    font-family: 'lora';
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.entrevistaFormulario {
+    font-family: 'lora';
+    font-size: 20px;
+    font-style: italic;
+    background-image: url(../images/textura.png);
+    border-color: #e79755;
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 5px;
+    margin: 80px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.entrevistaFormularioNombre input {
+    height: 40px;
+    width: 100%;
+}
+
+.entrevistaFormularioEmail input {
+    height: 40px;
+    width: 100%;
+}
+
+.entrevistaFormularioBotones input { /*fin de APARTADO SANARTE*/
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-style: outset;
+    border-width: 4px;
+    border-color: #e79755;
+    font-family: 'lora';
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.contmultim h2 { /*comienzo css APARTADO INFORMARTE*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: #e79755;
+    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contmultim .contmultimtexto {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.pregcontenido h2 { /*me aparece un doble recuadro no entiendo porque*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 181, 74);
+}
+
+.pregcontenido .contmultimresp p {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+.catalogovideos .videossubtitulo h2 {/*comienzo de listados de videos*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 181, 74);
+    margin: 70px 200px;
+}
+.listavideos { /*lista youtube - videos maternidad*/
+    font-family: 'lora';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1px;
+    align-items:center
+}
+.listavideos h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+.listavideos p {
+    font-family: 'lora';
+    padding: 0px 15px 10px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+.listavideos div {
+    width: 450px;
+    height: 470px;
+    border-width: 5px;
+    border-color: #e18234;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 15px;
+    border-style: outset;
+    background-image: url(../images/textura.png);
+}
+.listavideos iframe {
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+}
+
+.contenidoparaniños h2 { /*comienzo apartado para niños*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bold;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 60px 10px 60px 10px;  
+    text-decoration: underline;
+    background-color: rgb(231, 181, 74);
+}
+.contenidoparaniños p {
+    font-family: 'lora';
+    padding: 0px 15px 10px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.contenidoparaniños .musicaniños { 
+    background-color: #e79755 ;
+    width: 400px;
+    border-radius: 3px;
+    border-color: #e18234;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+}
+.contenidoparaniños .musicaniños h2 { /*comienzo lista spotify*/
+    margin-top: 10px;
+}
+.contenidoparaniños .musicaniños div {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.linksexternos .linksexternosniños h2 { /*comienzo paginas web*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 181, 74);
+    margin: 60px 10px 60px 10px;  
+}
+.linksexternos .linksexternosniños div {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 30px;
+    background-image: url(../images/textura.png);
+    width: 500px; 
+    height: 270px;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #e79755;
+    border-width: 1px;
+    border-style: outset;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.linksexternos .linksexternosniños div a {
+    background-color: #e79755;
+    display:flex;
+    justify-content:center;
+    font-size: 22px;
+    font-family: 'lora';
+    border-width: 2px;
+    border-style: outset;
+    border-color: #e18234;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 4px;
+    width: 250px;
+}
+.linksexternos .linksexternosniños a:hover {
+text-shadow: 1px 1px 1px black;
+}
+.linksexternos .linksexternosniños div img {
+    width: 250px;
+    height: 200px;
+    border-radius: 3px;
+}
+.linksexternos .linksexternosniños div p {
+    font-size: 18px;
+    font-family: 'lora';
+    display: flex;
+    float: right;
+    width:200px;
+}
+
+
+.listatribus .listatribustitulo h2 { /*comienzo css APARTADO CONECTARTE*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: #e79755;
+    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.listatribus .listatribustitulo h3 {
+    font-family: 'lora';
+    font-style: italic;
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 18px;
+}
+
+.listatribus .listatribusapartado {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.listatribus .listatribusimportante {
+    font-family: 'lora';
+    padding: 10px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.tablatribus table {
+    border: #e18234;
+    border-style: outset;
+    border-radius: 4px;
+    background-image: url(../images/textura.png);
+    width: 500px;
+    height: 500px;
+    margin: 20px 60px 40px 60px;
+    font-family: 'lora';
+    text-align: center;
+}
+
+.mapa h2 {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.mapaimagen {
+    display: inline-block;
+    border-width: 4px;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #e79755;
+    margin: 20px 40px;
+
+}
+
+.bolsadetrabajo h2 { /*comienzo css APARTADO EMPODERARTE*/
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: #e79755;
+    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bolsadetrabajo .bolsaparrafo {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.pregempoderarte h2 {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 181, 74);
+}
+
+.respempoderarte p {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) { /*MOBILEindex*/
+    #logo {
+        text-align: left;
+        font-family: 'Dancing Script';
+        font-size: 20px;
+        background-image: url(./img/logo3.jpg);
+        background-size: 100%;
+        height: 100px;
+        padding: 3px 5px;
+        margin: 5px 5px 5px 5px;
+        border-style: outset;
+        border-radius: 10px;
+        border-color: #e18234;
+        text-decoration: underline #e18234;
+        text-shadow: 2x 2px 2px 2px black;
+        
+    }
+    #logo h2 {
+        font-size: 25px;
+        margin: 5px 2px 2px 2px;
+        text-shadow: 2x 2px 2px 2px black;
+    }
+    .menu {
+        /* inicio menu */
+        padding: 0px 2px;
+        margin: 0px 2px;
+        font-family: 'lora';
+        font-style: italic;
+    }
+    
+    .menu nav ul {
+        display: flex;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    
+    .menu nav ul li {
+        list-style: none;
+        background-color: #e7b54a;
+        background-image: url(./img/textura.png);
+        text-align: center;
+        border: 3px outset #e18234;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 10px;
+        width: 70px;
+        height: 15px;
+        padding: 1px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .menu nav ul li a {
+        text-decoration: none;
+        color: black;
+        text-shadow: 1px 1px 1px #e18234;
+        width: 100%;
+    }
+    
+    .menu nav ul li a:hover {
+        /*fin de menu*/
+        text-shadow: 2px #e18234;
+        letter-spacing: 1px;
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: 85%;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+        gap: 5px;
+    }
+    .contenedor header {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .contenedor section .bienvenida {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    .contenedor section .bienvenidaTitulo {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    
+    .contenedor section .mensajeinicial {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    
+    .contenedor .buscartribu {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        
+    }
+    .bienvenida .bienvenidaTitulo {
+        /*inicio mensaje de bienvenida*/
+        font-family: 'Dancing Script';
+        font-size: 14px;
+        background-color: #e79755;
+        width: 95%;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .bienvenida .bienvenidaParrafo {
+        /*fin de mensaje bienvenida*/
+        font-family: 'lora';
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .mensajeinicial h2 {
+        /* inicio las dos preguntas y los dos bloques de parrafo que comparten iguales propiedades */
+        font-family: 'Dancing Script';
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        border-style: double;
+        border-color: #e18234;
+        border-width: 5px;
+        border-radius: 5px;
+        background-color: rgb(231, 181, 74);
+    }
+    
+    .mensajeinicial .parrafo {
+        /*fin preguntas con bloques de parrafo*/
+        font-family: 'lora';
+        padding: 30px 15px 40px 15px;
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 12px;
+    }
+    .contenedor .encuentros {
+        font-family: 'lora';
+        font-size: 12px;
+        background-image: url(./img/textura.png);
+        border-radius: 3px;
+        border-width: 2px;
+        border-style: solid;
+        height: 200px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 2px 2px gray;
+        text-align: center;
+        border-color: #e79755;
+        margin-right: 15px;
+        padding: 5px;
+    }
+    
+    .contenedor .entrevistapsi {
+        font-family: 'lora';
+        font-size: 12px;
+        background-image: url(./img/textura.png);
+        border-radius: 3px;
+        border-width: 2px;
+        border-style: solid;
+        height: 200px ;
+        box-shadow: 2px 2px 2px 2px gray;
+        text-align: center;
+        border-color: #e79755;
+        margin-right: 15px;
+        padding: 5px;
+    }
+    
+    .contenedor .discord {
+        font-family: 'lora';
+        font-size: 12px;
+        background-image: url(./img/textura.png);
+        border-radius: 3px;
+        border-width: 2px;
+        border-style: solid;
+        height: 250px;
+        box-shadow: 2px 2px 2px 2px gray;
+        text-align: center;
+        border-color: #e79755;
+        margin-right: 15px;
+        padding: 5px;
+    }
+    .buscartribu {
+        /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
+        font-family: 'lora';
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        border-style: outset;
+        border-color: #e18234;
+        border-radius: 10px;
+        border-width: 4px;
+        background-image: url(./img/tribu.jpg);
+        background-size: contain;
+        height: 150px;
+        margin: 10px 20px;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+    
+    .buscartribu h3 {
+        color: brown;
+        border-style: none;
+        background-color: #e7b54a;
+        background-image: url(./img/textura.png);
+        padding: 5px;
+        border-radius: 8px;
+    }
+    
+    .buscartribu .linktribu {
+        /*fin cajita para buscar tribu*/
+        background-color: #e7b54a;
+        margin: 30px;
+        padding: 5px;
+        background-position: center;
+        border-style: outset;
+        border-radius: 5px;
+        border-color: #e18234;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    footer {
+        font-family: 'lora';
+        margin: 15px 25px; 
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    
+    }
+}
