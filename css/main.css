@@ -292,7 +292,6 @@ footer {
     border-width: 5px;
     border-style: outset;
     border-radius: 5px;
-    margin: 80px;
     padding: 25px;
     display: inline-block;
 }
@@ -337,7 +336,7 @@ footer {
     font-size: 18px;
 }
 
-.pregcontenido h2 { /*me aparece un doble recuadro no entiendo porque*/
+.pregcontenido h2 { 
     font-family: 'Dancing Script';
     font-size: 30px;
     font-weight: bolder;
@@ -437,6 +436,7 @@ footer {
     border-width: 2px;
     border-style: solid;
     box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+    margin: 0 auto;
 }
 .contenidoparaniños .musicaniños h2 { /*comienzo lista spotify*/
     margin-top: 10px;
