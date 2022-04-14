@@ -32,6 +32,14 @@ body {
     margin: 50px auto 20px auto;
     text-shadow: 2x 2px 2px 2px black;
 }
+.animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+    --animate-delay: 1s;
+}
+.animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+    --animate-delay: 3s;
+}
 
 .navbar-nav .nav-item {
     font-family: "lora";
