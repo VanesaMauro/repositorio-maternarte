@@ -1,0 +1,47 @@
+[33mcommit e0012d6cdd6fadc1120f7d368f6f0033e07b9d37[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Thu Apr 14 14:56:25 2022 -0300
+
+    agrego bootstrap menu a todas las secciones
+
+[33mcommit e1b48693e3f7c62ec895118cfe8e673ee0b0489c[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Wed Apr 13 23:42:06 2022 -0300
+
+    arreglo media queries
+
+[33mcommit 082dacbfd517134a679c716bdbdd204d87141773[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Wed Apr 13 23:37:02 2022 -0300
+
+    modifico contenedores aside
+
+[33mcommit 9047ce210cb0eb9b5c5923ae58c6c50787f489e8[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Wed Apr 13 23:28:57 2022 -0300
+
+    modifico css
+
+[33mcommit 9262ed58489a5bed8cb2885723434d589f139d51[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Wed Apr 13 23:17:23 2022 -0300
+
+    modifico html y agrego bootstrap
+
+[33mcommit 061a6750de85e5157c49e55b05206991655f6540[m[33m ([m[1;32manimaciones[m[33m)[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Sun Apr 10 13:56:20 2022 -0300
+
+    agrego animaciones y transformaciones al logo y menu
+
+[33mcommit c7885dfc74afb4b22d3fe856bed345b8960691f3[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Sun Apr 10 12:23:28 2022 -0300
+
+    cambio estilos css
+
+[33mcommit bcfa963698e5d81e3d7766f3439025afc92e5eea[m
+Author: Digital Femme <vanepsiuba@gmail.com>
+Date:   Sat Apr 9 21:53:17 2022 -0300
+
+    mi primer commit

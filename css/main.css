@@ -796,7 +796,7 @@ footer {
     .mensajeinicial h2 {
         /* inicio las dos preguntas y los dos bloques de parrafo que comparten iguales propiedades */
         font-family: 'Dancing Script';
-        font-size: 15px;
+        font-size: 1.5em;
         font-weight: bolder;
         text-align: center;
         border-style: double;
@@ -812,53 +812,56 @@ footer {
         padding: 30px 15px 40px 15px;
         line-height: 1.5;
         text-align: justify;
-        font-size: 12px;
+        font-size: 1em;
     }
 
     .contenedor .encuentros {
         font-family: 'lora';
-        font-size: 12px;
-        background-image: url(./img/textura.png);
+        font-size: 1em;
+        background-image: url(../images/textura.png);
         border-radius: 3px;
         border-width: 2px;
         border-style: solid;
-        height: 200px;
+        height: 100%;
         margin-top: 20px;
         box-shadow: 2px 2px 2px 2px gray;
         text-align: center;
         border-color: #e79755;
         margin-right: 15px;
         padding: 5px;
+        width: 100%;
     }
 
     .contenedor .entrevistapsi {
         font-family: 'lora';
-        font-size: 12px;
-        background-image: url(./img/textura.png);
+        font-size: 1em;
+        background-image: url(../images/textura.png);
         border-radius: 3px;
         border-width: 2px;
         border-style: solid;
-        height: 200px;
+        height: 100%;
         box-shadow: 2px 2px 2px 2px gray;
         text-align: center;
         border-color: #e79755;
         margin-right: 15px;
         padding: 5px;
+        width: 100%;
     }
 
     .contenedor .discord {
         font-family: 'lora';
-        font-size: 12px;
-        background-image: url(./img/textura.png);
+        font-size: 1em;
+        background-image: url(../images/textura.png);
         border-radius: 3px;
         border-width: 2px;
         border-style: solid;
-        height: 250px;
+        height: 100%;
         box-shadow: 2px 2px 2px 2px gray;
         text-align: center;
         border-color: #e79755;
         margin-right: 15px;
         padding: 5px;
+        width: 100%;
     }
 
     .buscartribu {
@@ -871,7 +874,7 @@ footer {
         border-color: #e18234;
         border-radius: 10px;
         border-width: 4px;
-        background-image: url(./img/tribu.jpg);
+        background-image: url(../images/tribu.jpg);
         background-size: contain;
         height: 150px;
         margin: 10px 20px;
