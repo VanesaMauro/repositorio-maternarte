@@ -32,10 +32,12 @@ body {
     margin: 50px auto 20px auto;
     text-shadow: 2x 2px 2px 2px black;
 }
+
 .animate__animated.animate__fadeIn {
     --animate-duration: 4s;
     --animate-delay: 1s;
 }
+
 .animate__animated.animate__zoomIn {
     --animate-duration: 2s;
     --animate-delay: 3s;
@@ -118,36 +120,43 @@ hr {
 .bienvenida .bienvenidaTitulo {
     /*inicio mensaje de bienvenida*/
     font-family: 'Dancing Script';
-    font-size: 30px;
+    font-size: 2em;
     background-color: #efc394;
-    margin: 40px 200px 20px 200px;
+    margin: 0 auto;
+    margin-top: 30px;
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
 }
 
 .bienvenida .bienvenidaParrafo {
     /*fin de mensaje bienvenida*/
     font-family: 'lora';
     font-style: italic;
-    font-size: 22px;
+    font-size: 1.5em;
     text-align: center;
     padding: 5px;
-    margin: 40px 10px 60px 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 .mensajeinicial h2 {
     /* inicio las dos preguntas y los dos bloques de parrafo que comparten iguales propiedades */
     font-family: 'Dancing Script';
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bolder;
     text-align: center;
     border-style: double;
     border-color: #e18234;
     border-width: 5px;
     border-radius: 5px;
-    margin-left: 10px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
 }
 
 .mensajeinicial .parrafo {
@@ -156,7 +165,9 @@ hr {
     padding: 30px 15px 40px 15px;
     line-height: 1.5;
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .buscartribu {
@@ -172,8 +183,9 @@ hr {
     background-image: url(../images/tribu.jpg);
     background-size: contain;
     height: 200px;
-    margin: 10px 20px;
+    margin: 0 auto;
     box-shadow: 2px 2px 2px 2px gray;
+    width: 80%;
 }
 
 .buscartribu h3 {
@@ -188,7 +200,7 @@ hr {
 .buscartribu .linktribu {
     /*fin cajita para buscar tribu*/
     background-color: #e7b54a;
-    margin: 80px;
+    margin: 0 auto;
     padding: 5px;
     background-position: center;
     border-style: outset;
@@ -196,7 +208,18 @@ hr {
     border-color: #e18234;
     font-weight: bold;
     font-size: 20px;
+    width: 50%;
+    margin-top: 90px;
+
 }
+.buscartribu .linktribu a {
+    text-decoration: none;
+    color: black;
+}
+.buscartribu .linktribu:hover {
+    background-color: #efc394;
+}
+
 
 footer {
     font-family: 'lora';
@@ -204,7 +227,6 @@ footer {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-
 }
 
 .contenedor {
@@ -249,6 +271,8 @@ footer {
     flex-wrap: wrap;
     width: 300px;
     margin: 0 auto;
+    margin-right: 20px;
+
 }
 
 .contenedor .asides h2 {
@@ -258,14 +282,27 @@ footer {
     padding: 2px;
     box-shadow: 1px 1px 1px 1px gray;
 }
+
+.contenedor .asides .fecha {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.contenedor .asides p {
+    margin: 10px;
+    text-align: justify;
+}
+
 .contenedor .encuentros {
     font-family: 'lora';
-    font-size: 16px;
+    font-size: 1em;
     background-image: url(../images/textura.png);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
-    height: 400px;
+    height: 620px;
     margin-top: 20px;
     box-shadow: 2px 2px 2px 2px gray;
     text-align: center;
@@ -274,9 +311,34 @@ footer {
     padding: 5px;
 }
 
+.contenedor .encuentros iframe {
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.contenedor .encuentros a {
+    text-decoration: none;
+    font-size: 1.2em;
+    border-style: double;
+    border-radius: 3px;
+    border-color: #e18234;
+    border-width: 2px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: black;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.contenedor .encuentros a:hover {
+    background-color: #efc394;
+}
+
 .contenedor .entrevistapsi {
     font-family: 'lora';
-    font-size: 16px;
+    font-size: 1em;
     background-image: url(../images/textura.png);
     border-radius: 3px;
     border-width: 2px;
@@ -291,7 +353,7 @@ footer {
 
 .contenedor .discord {
     font-family: 'lora';
-    font-size: 16px;
+    font-size: 1em;
     background-image: url(../images/textura.png);
     border-radius: 3px;
     border-width: 2px;
@@ -673,7 +735,9 @@ footer {
     font-size: 18px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) { /*MOBILEindex*/
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /*MOBILEindex*/
     #logo {
         text-align: left;
         font-family: 'Dancing Script';
@@ -774,118 +838,75 @@ footer {
 
     .bienvenida .bienvenidaTitulo {
         /*inicio mensaje de bienvenida*/
-        font-family: 'Dancing Script';
-        font-size: 14px;
-        background-color: #e79755;
+        font-size: 2em;
         width: 95%;
-        border-radius: 10px;
-        margin: 10px;
+        margin: 0 auto;
         padding: 10px;
+        margin-top: 10px;
     }
 
     .bienvenida .bienvenidaParrafo {
         /*fin de mensaje bienvenida*/
-        font-family: 'lora';
-        font-style: italic;
-        font-size: 12px;
+        font-size: 1.2em;
         text-align: center;
         padding: 5px;
-        margin: 5px;
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
     .mensajeinicial h2 {
         /* inicio las dos preguntas y los dos bloques de parrafo que comparten iguales propiedades */
-        font-family: 'Dancing Script';
         font-size: 1.5em;
         font-weight: bolder;
         text-align: center;
-        border-style: double;
-        border-color: #e18234;
-        border-width: 5px;
-        border-radius: 5px;
-        background-color: rgb(231, 181, 74);
+        width: 90%;
+        margin: 0 auto;
     }
 
     .mensajeinicial .parrafo {
         /*fin preguntas con bloques de parrafo*/
-        font-family: 'lora';
-        padding: 30px 15px 40px 15px;
         line-height: 1.5;
         text-align: justify;
         font-size: 1em;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .contenedor .asides {
+        margin: 0 auto;
+        width: 70%;
     }
 
     .contenedor .encuentros {
-        font-family: 'lora';
         font-size: 1em;
-        background-image: url(../images/textura.png);
-        border-radius: 3px;
-        border-width: 2px;
-        border-style: solid;
         height: 100%;
-        margin-top: 20px;
-        box-shadow: 2px 2px 2px 2px gray;
-        text-align: center;
-        border-color: #e79755;
-        margin-right: 15px;
-        padding: 5px;
         width: 100%;
     }
 
     .contenedor .entrevistapsi {
-        font-family: 'lora';
         font-size: 1em;
-        background-image: url(../images/textura.png);
-        border-radius: 3px;
-        border-width: 2px;
-        border-style: solid;
         height: 100%;
-        box-shadow: 2px 2px 2px 2px gray;
-        text-align: center;
-        border-color: #e79755;
-        margin-right: 15px;
-        padding: 5px;
         width: 100%;
     }
 
     .contenedor .discord {
-        font-family: 'lora';
         font-size: 1em;
-        background-image: url(../images/textura.png);
-        border-radius: 3px;
-        border-width: 2px;
-        border-style: solid;
         height: 100%;
-        box-shadow: 2px 2px 2px 2px gray;
-        text-align: center;
-        border-color: #e79755;
-        margin-right: 15px;
-        padding: 5px;
         width: 100%;
     }
 
     .buscartribu {
         /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
-        font-family: 'lora';
-        font-style: italic;
-        font-size: 12px;
-        text-align: center;
-        border-style: outset;
-        border-color: #e18234;
-        border-radius: 10px;
-        border-width: 4px;
-        background-image: url(../images/tribu.jpg);
-        background-size: contain;
+        font-size: 1em;
         height: 150px;
-        margin: 10px 20px;
-        box-shadow: 2px 2px 2px 2px gray;
+       
     }
 
     .buscartribu h3 {
         color: brown;
         border-style: none;
         background-color: #e7b54a;
-        background-image: url(./img/textura.png);
+        background-image: url(../images/textura.png);
         padding: 5px;
         border-radius: 8px;
     }
@@ -893,16 +914,12 @@ footer {
     .buscartribu .linktribu {
         /*fin cajita para buscar tribu*/
         background-color: #e7b54a;
-        margin: 30px;
+        margin: 0 auto;
+        width: 50%;
         padding: 5px;
-        background-position: center;
-        border-style: outset;
-        border-radius: 5px;
-        border-color: #e18234;
-        font-weight: bold;
-        font-size: 12px;
+        font-size: 1em;
     }
-
+   
     footer {
         font-family: 'lora';
         margin: 15px 25px;
@@ -911,4 +928,4 @@ footer {
         text-align: center;
 
     }
-} 
+}
