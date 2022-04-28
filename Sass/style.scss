@@ -1,18 +1,21 @@
 @import "vars";
 @import "header";
+@mixin h2 {
+    font-family: $fuentetitulos;
+    font-size: 30px;
+    text-align: center;
+}
 
 body {
     background-color: antiquewhite cover;
 
     .bolsadetrabajo {
         & h2 {
-            font-family: $fuentetitulos;
-            font-size: 30px;
+            @include h2;
             background-color: #e79755;
             margin: 40px 200px 20px 200px;
             padding: 20px 5px;
             border-radius: 10px;
-            text-align: center;
         }
 
         & .bolsaparrafo {
@@ -26,10 +29,8 @@ body {
 
     & .pregempoderarte {
         & h2 {
-            font-family: $fuentetitulos;
-            font-size: 30px;
+            @include h2;
             font-weight: bolder;
-            text-align: center;
             border-style: double;
             border-color: #e18234;
             border-width: 5px;
@@ -40,11 +41,7 @@ body {
 
         & .respempoderarte {
             & p {
-                font-family: $fuentegeneral;
-                padding: 30px 15px 40px 15px;
-                line-height: 1.5;
-                text-align: justify;
-                font-size: 18px;
+                @extend .bolsaparrafo;
             }
         }
     }
@@ -56,4 +53,17 @@ body {
         font-weight: bold;
         text-align: center;
     }
+
 }
+
+$fuente: (titulos: 'Dancing Script',
+    general: 'lora',
+);
+
+@each $nombre,
+$valor in $fuente {
+    .bolsadetrabajo-#{$nombre}{
+        font: $valor;
+    }
+}
+

@@ -56,14 +56,14 @@ body {
 body .bolsadetrabajo h2 {
   font-family: "Dancing Script";
   font-size: 30px;
+  text-align: center;
   background-color: #e79755;
   margin: 40px 200px 20px 200px;
   padding: 20px 5px;
   border-radius: 10px;
-  text-align: center;
 }
 
-body .bolsadetrabajo .bolsaparrafo {
+body .bolsadetrabajo .bolsaparrafo, body .bolsadetrabajo .pregempoderarte .respempoderarte p, body .pregempoderarte .respempoderarte .bolsadetrabajo p {
   font-family: "lora";
   padding: 30px 15px 40px 15px;
   line-height: 1.5;
@@ -74,21 +74,13 @@ body .bolsadetrabajo .bolsaparrafo {
 body .pregempoderarte h2 {
   font-family: "Dancing Script";
   font-size: 30px;
-  font-weight: bolder;
   text-align: center;
+  font-weight: bolder;
   border-style: double;
   border-color: #e18234;
   border-width: 5px;
   border-radius: 5px;
   background-color: #e7b54a;
-}
-
-body .pregempoderarte .respempoderarte p {
-  font-family: "lora";
-  padding: 30px 15px 40px 15px;
-  line-height: 1.5;
-  text-align: justify;
-  font-size: 18px;
 }
 
 body footer {
@@ -97,5 +89,13 @@ body footer {
   font-size: 12px;
   font-weight: bold;
   text-align: center;
+}
+
+.bolsadetrabajo-titulos {
+  font: "Dancing Script";
+}
+
+.bolsadetrabajo-general {
+  font: "lora";
 }
 /*# sourceMappingURL=style.css.map */
