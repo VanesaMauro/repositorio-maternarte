@@ -43,6 +43,12 @@ body {
     --animate-delay: 3s;
 }
 
+/*INICIO DEL MENU DE NAVEGACION*/
+nav .navbar {
+    position: sticky;
+    top: 0;
+}
+
 .navbar-nav .nav-item {
     font-family: "lora";
     font-size: 1.5em;
@@ -72,67 +78,24 @@ hr {
     color: #e79755;
 }
 
-/* inicio menu
-.menu {
-    
-    padding: 0px 20px;
-    margin: 0px 10px;
-    font-family: 'lora';
-    font-style: italic;
-}
-
-.menu nav ul {
-    display: flex;
-}
-
-.menu nav ul li {
-    list-style: none;
-    display: inline;
-    background-color: #e7b54a;
-    background-image: url(../images/textura.png);
-    margin: 5px 5px 0px 5px;
-    text-align: center;
-    border: 3px outset #e18234;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 22px;
-    width: 250px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    border-bottom: none;
-}
-
-.menu nav ul li a {
-    text-decoration: none;
-    color: black;
-    text-shadow: 1px 1px 1px #e18234;
-    width: 100%;
-}
-
-.menu nav ul li a:hover {
-    
-    text-shadow: 2px #e18234;
-    letter-spacing: 1px;
-}*/
-
+/*BIENVENIDA TITULO Y PARRAFO*/
 .bienvenida .bienvenidaTitulo {
-    /*inicio mensaje de bienvenida*/
+
     font-family: 'Dancing Script';
     font-size: 2em;
     background-color: #efc394;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 1px 1px 1px 1px gray;
     width: 70%;
+    margin-top: 20px;
 }
 
 .bienvenida .bienvenidaParrafo {
-    /*fin de mensaje bienvenida*/
+
     font-family: 'lora';
     font-style: italic;
     font-size: 1.5em;
@@ -144,8 +107,10 @@ hr {
     width: 90%;
 }
 
+/*fin de mensaje bienvenida*/
+/*INICIO DE SECCION CON PREGUNTAS Y BLOQUES DE PARRAFO*/
 .mensajeinicial h2 {
-    /* inicio las dos preguntas y los dos bloques de parrafo que comparten iguales propiedades */
+
     font-family: 'Dancing Script';
     font-size: 2em;
     font-weight: bolder;
@@ -160,7 +125,7 @@ hr {
 }
 
 .mensajeinicial .parrafo {
-    /*fin preguntas con bloques de parrafo*/
+
     font-family: 'lora';
     padding: 30px 15px 40px 15px;
     line-height: 1.5;
@@ -170,8 +135,9 @@ hr {
     margin: 0 auto;
 }
 
+/*fin preguntas con bloques de parrafo*/
+/*inicio contenedor tribu con boton que redirige a pagina Encontrarte*/
 .buscartribu {
-    /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
     font-family: 'lora';
     font-style: italic;
     font-size: 20px;
@@ -198,7 +164,7 @@ hr {
 }
 
 .buscartribu .linktribu {
-    /*fin cajita para buscar tribu*/
+
     background-color: #e7b54a;
     margin: 0 auto;
     padding: 5px;
@@ -210,15 +176,18 @@ hr {
     font-size: 20px;
     width: 50%;
     margin-top: 90px;
-
 }
+
 .buscartribu .linktribu a {
     text-decoration: none;
     color: black;
 }
+
 .buscartribu .linktribu:hover {
     background-color: #efc394;
 }
+
+/*fin contenedor tribu*/
 
 
 footer {
@@ -272,8 +241,11 @@ footer {
     width: 300px;
     margin: 0 auto;
     margin-right: 20px;
-
 }
+
+/*.contenedor .asides:hover {
+transform: scale(1.1,1.02);
+}*/
 
 .contenedor .asides h2 {
     font-size: 1.5em;
@@ -304,11 +276,18 @@ footer {
     border-style: solid;
     height: 620px;
     margin-top: 20px;
-    box-shadow: 2px 2px 2px 2px gray;
     text-align: center;
     border-color: #e79755;
     margin-right: 15px;
     padding: 5px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+
+}
+
+.contenedor .encuentros:hover {
+    transform: scale(1.1, 1.02);
 }
 
 .contenedor .encuentros iframe {
@@ -349,6 +328,13 @@ footer {
     border-color: #e79755;
     margin-right: 15px;
     padding: 5px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+}
+
+.contenedor .entrevistapsi:hover {
+    transform: scale(1.1, 1.03);
 }
 
 .contenedor .discord {
@@ -364,17 +350,29 @@ footer {
     border-color: #e79755;
     margin-right: 15px;
     padding: 5px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
 }
 
+.contenedor .discord:hover {
+    transform: scale(1.1, 1.03);
+}
+
+/*comienzo de css APARTADO SANARTE*/
+
 .entrevista h2 {
-    /*comienzo de css APARTADO SANARTE*/
     font-family: 'Dancing Script';
-    font-size: 30px;
-    background-color: #e79755;
-    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
 }
 
 .entrevista p {
@@ -382,8 +380,11 @@ footer {
     font-size: 20px;
     font-style: italic;
     text-align: justify;
-    margin: 30px;
+    margin: 0 auto;
     padding-top: 20px;
+    width: 85%;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .entrevistaFormulario {
@@ -396,7 +397,12 @@ footer {
     border-style: outset;
     border-radius: 5px;
     padding: 25px;
-    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
+    box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
 }
 
 .entrevistaFormularioNombre input {
@@ -410,7 +416,6 @@ footer {
 }
 
 .entrevistaFormularioBotones input {
-    /*fin de APARTADO SANARTE*/
     padding: 15px;
     margin-top: 25px;
     border-radius: 5px;
@@ -420,17 +425,25 @@ footer {
     font-family: 'lora';
     font-weight: bolder;
     font-size: 17px;
+
 }
 
+/*fin de APARTADO SANARTE*/
+
+/*comienzo del APARTADO INFORMARTE*/
+
 .contmultim h2 {
-    /*comienzo css APARTADO INFORMARTE*/
     font-family: 'Dancing Script';
-    font-size: 30px;
-    background-color: #e79755;
-    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
 }
 
 .contmultim .contmultimtexto {
@@ -443,14 +456,16 @@ footer {
 
 .pregcontenido h2 {
     font-family: 'Dancing Script';
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bolder;
     text-align: center;
     border-style: double;
     border-color: #e18234;
     border-width: 5px;
     border-radius: 5px;
-    background-color: rgb(231, 181, 74);
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
 }
 
 .pregcontenido .contmultimresp p {
@@ -464,15 +479,17 @@ footer {
 .catalogovideos .videossubtitulo h2 {
     /*comienzo de listados de videos*/
     font-family: 'Dancing Script';
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bolder;
     text-align: center;
     border-style: double;
     border-color: #e18234;
     border-width: 5px;
     border-radius: 5px;
-    background-color: rgb(231, 181, 74);
-    margin: 70px 200px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    margin-top: 30 px;
 }
 
 .listavideos {
@@ -629,16 +646,20 @@ footer {
     width: 200px;
 }
 
+/*comienzo css APARTADO CONECTARTE*/
 
 .listatribus .listatribustitulo h2 {
-    /*comienzo css APARTADO CONECTARTE*/
     font-family: 'Dancing Script';
-    font-size: 30px;
-    background-color: #e79755;
-    margin: 40px 200px 20px 200px;
+    padding: 20px 5px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
 }
 
 .listatribus .listatribustitulo h3 {
@@ -667,44 +688,21 @@ footer {
     font-style: italic;
 }
 
-.tablatribus table {
-    border: #e18234;
-    border-style: outset;
-    border-radius: 4px;
-    background-image: url(../images/textura.png);
-    width: 500px;
-    height: 500px;
-    margin: 20px 60px 40px 60px;
-    font-family: 'lora';
-    text-align: center;
-}
+/*FIN DEL APARTADO CONECTARTE*/
 
-.mapa h2 {
-    font-family: 'lora';
-    padding: 30px 15px 40px 15px;
-    line-height: 1.5;
-    font-size: 20px;
-}
-
-.mapaimagen {
-    display: inline-block;
-    border-width: 4px;
-    border-radius: 5px;
-    border-style: outset;
-    border-color: #e79755;
-    margin: 20px 40px;
-
-}
+/*COMIENZO APARTADO EMPODERARTE*/
 
 .bolsadetrabajo h2 {
-    /*comienzo css APARTADO EMPODERARTE*/
     font-family: 'Dancing Script';
-    font-size: 30px;
-    background-color: #e79755;
-    margin: 40px 200px 20px 200px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
 }
 
 .bolsadetrabajo .bolsaparrafo {
@@ -717,14 +715,16 @@ footer {
 
 .pregempoderarte h2 {
     font-family: 'Dancing Script';
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bolder;
     text-align: center;
     border-style: double;
     border-color: #e18234;
     border-width: 5px;
     border-radius: 5px;
-    background-color: rgb(231, 181, 74);
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
 }
 
 .respempoderarte p {
@@ -734,6 +734,10 @@ footer {
     text-align: justify;
     font-size: 18px;
 }
+
+/*FIN DEL APARTADO EMPODERARTE*/
+
+/*MEDIA QUERIES MOBILE*/
 
 @media (min-width: 320px) and (max-width: 767px) {
 
@@ -760,49 +764,6 @@ footer {
         text-shadow: 2x 2px 2px 2px black;
     }
 
-    /*menu
-    .menu {
-        padding: 0px 2px;
-        margin: 0px 2px;
-        font-family: 'lora';
-        font-style: italic;
-    }
-    
-    .menu nav ul {
-        display: flex;
-        display: inline-flex;
-        flex-wrap: wrap;
-    }
-    
-    .menu nav ul li {
-        list-style: none;
-        background-color: #e7b54a;
-        background-image: url(./img/textura.png);
-        text-align: center;
-        border: 3px outset #e18234;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 10px;
-        width: 70px;
-        height: 15px;
-        padding: 1px;
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        
-    }
-    
-    .menu nav ul li a {
-        text-decoration: none;
-        color: black;
-        text-shadow: 1px 1px 1px #e18234;
-        width: 100%;
-    }
-    
-    .menu nav ul li a:hover {
-        text-shadow: 2px #e18234;
-        letter-spacing: 1px;
-    }*/
     .contenedor {
         display: grid;
         grid-template-columns: 100%;
@@ -842,7 +803,8 @@ footer {
         width: 95%;
         margin: 0 auto;
         padding: 10px;
-        margin-top: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .bienvenida .bienvenidaParrafo {
@@ -898,28 +860,20 @@ footer {
     .buscartribu {
         /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
         font-size: 1em;
-        height: 150px;
-       
-    }
+        height: 100%;
+        background-size: cover;
+        margin-top: 30px;
 
-    .buscartribu h3 {
-        color: brown;
-        border-style: none;
-        background-color: #e7b54a;
-        background-image: url(../images/textura.png);
-        padding: 5px;
-        border-radius: 8px;
     }
 
     .buscartribu .linktribu {
         /*fin cajita para buscar tribu*/
-        background-color: #e7b54a;
         margin: 0 auto;
-        width: 50%;
+        width: 60%;
         padding: 5px;
         font-size: 1em;
     }
-   
+
     footer {
         font-family: 'lora';
         margin: 15px 25px;
@@ -927,5 +881,35 @@ footer {
         font-weight: bold;
         text-align: center;
 
+    }
+
+    .bolsadetrabajo .bolsatitulo h2 {
+        font-size: 1.5em;
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .pregempoderarte h2 {
+        font-size: 1.5em;
+    }
+    .contmultim h2 {
+        font-size: 1.5em;
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .pregcontenido h2 {
+        font-size: 1.5em;
+    }
+    .entrevista h2 {
+        font-size: 1.5em;
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 }
