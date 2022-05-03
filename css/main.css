@@ -164,27 +164,29 @@ hr {
 }
 
 .buscartribu .linktribu {
-
-    background-color: #e7b54a;
     margin: 0 auto;
     padding: 5px;
-    background-position: center;
-    border-style: outset;
-    border-radius: 5px;
-    border-color: #e18234;
-    font-weight: bold;
-    font-size: 20px;
-    width: 50%;
-    margin-top: 90px;
+    width: 60%;
+    margin-top: 80px;
 }
 
 .buscartribu .linktribu a {
     text-decoration: none;
     color: black;
 }
-
-.buscartribu .linktribu:hover {
+.buscartribu .linktribu .btn {
     background-color: #efc394;
+    border-color: #e18234;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+   
+}
+
+.buscartribu .linktribu .btn:hover {
+    background-color: #e18234;
 }
 
 /*fin contenedor tribu*/
@@ -397,7 +399,7 @@ transform: scale(1.1,1.02);
     border-style: outset;
     border-radius: 5px;
     padding: 25px;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 40px;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
@@ -451,7 +453,10 @@ transform: scale(1.1,1.02);
     padding: 30px 15px 40px 15px;
     line-height: 1.5;
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.2em;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 .pregcontenido h2 {
@@ -473,7 +478,10 @@ transform: scale(1.1,1.02);
     padding: 30px 15px 40px 15px;
     line-height: 1.5;
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.2em;
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 .catalogovideos .videossubtitulo h2 {
@@ -687,6 +695,15 @@ transform: scale(1.1,1.02);
     font-size: 16px;
     font-style: italic;
 }
+.listatribus .listatribusBtn .btn {
+   background-color: #efc394;
+   border-color: #e18234;
+   border-width: 2px;
+}
+.listatribus .listatribusBtn .btn:hover {
+    background-color: #e18234;
+}
+
 
 /*FIN DEL APARTADO CONECTARTE*/
 
@@ -710,7 +727,10 @@ transform: scale(1.1,1.02);
     padding: 30px 15px 40px 15px;
     line-height: 1.5;
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.2em;
+    width: 85%;
+    text-align: justify;
+    margin: 0 auto;
 }
 
 .pregempoderarte h2 {
@@ -732,7 +752,9 @@ transform: scale(1.1,1.02);
     padding: 30px 15px 40px 15px;
     line-height: 1.5;
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.2em;
+    width: 85%;
+    margin: 0 auto;
 }
 
 /*FIN DEL APARTADO EMPODERARTE*/
@@ -911,5 +933,10 @@ transform: scale(1.1,1.02);
         padding: 10px;
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+    .entrevista p {
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 1em;
     }
 }
