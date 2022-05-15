@@ -44,10 +44,6 @@ body {
 }
 
 /*INICIO DEL MENU DE NAVEGACION*/
-nav .navbar {
-    position: sticky;
-    top: 0;
-}
 
 .navbar-nav .nav-item {
     font-family: "lora";
@@ -110,7 +106,6 @@ hr {
 /*fin de mensaje bienvenida*/
 /*INICIO DE SECCION CON PREGUNTAS Y BLOQUES DE PARRAFO*/
 .mensajeinicial h2 {
-
     font-family: 'Dancing Script';
     font-size: 2em;
     font-weight: bolder;
@@ -140,7 +135,7 @@ hr {
 .buscartribu {
     font-family: 'lora';
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: center;
     border-style: outset;
     border-color: #e18234;
@@ -167,7 +162,7 @@ hr {
     margin: 0 auto;
     padding: 5px;
     width: 60%;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .buscartribu .linktribu a {
@@ -199,7 +194,7 @@ footer {
     font-weight: bold;
     text-align: center;
 }
-
+/*grid layout del home*/
 .contenedor {
     display: grid;
     grid-template-columns: 1fr 0.1fr;
@@ -379,16 +374,14 @@ transform: scale(1.1,1.02);
 
 .entrevista p {
     font-family: 'lora';
-    font-size: 20px;
-    font-style: italic;
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
     text-align: justify;
+    font-size: 1.2em;
+    width: 90%;
     margin: 0 auto;
-    padding-top: 20px;
-    width: 85%;
-    margin-bottom: 40px;
-    margin-top: 20px;
 }
-
+/*FORMULARIO*/
 .entrevistaFormulario {
     font-family: 'lora';
     font-size: 20px;
@@ -656,7 +649,46 @@ transform: scale(1.1,1.02);
 
 /*comienzo css APARTADO CONECTARTE*/
 
-.listatribus .listatribustitulo h2 {
+.redesapoyo {
+margin-bottom: 30px;
+}
+.redesapoyo h2 {
+    font-family: 'Dancing Script';
+    padding: 20px 5px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
+    }
+    
+.redesapoyo p {
+    font-family: 'lora';
+    padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 auto;
+    }
+
+.encuentrosSemestrales, .encuentrosDiscord {
+    border-color:#e18234;
+    border-radius: 5px;
+    border-style: outset;
+    margin: 0 auto;
+}
+
+.encuentrosSemestrales .fecha {
+    margin: 0 auto;
+}
+
+
+.listatribus .listatribusTitulo h2 {
     font-family: 'Dancing Script';
     padding: 20px 5px;
     font-size: 2em;
@@ -669,37 +701,60 @@ transform: scale(1.1,1.02);
     box-shadow: 1px 1px 1px 1px gray;
     width: 70%;
 }
-
-.listatribus .listatribustitulo h3 {
-    font-family: 'lora';
+.listatribus .listatribusTitulo p {
     font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'lora';
+}
+.listatribus .listatribusPregunta h3 {
+    font-family: 'Dancing Script';
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-color: #e18234;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.listatribus .listatribusPregunta p {
+    font-family: 'lora';
     padding: 30px 15px 40px 15px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 auto;
+}
+.listatribusImportante p {
+    font-family: 'lora';
+    font-size: 1em;
     line-height: 1.5;
     text-align: center;
-    font-size: 18px;
-}
-
-.listatribus .listatribusapartado {
-    font-family: 'lora';
+    margin: 0 auto;
     padding: 30px 15px 40px 15px;
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 18px;
+    width: 90%;
+    margin-bottom: 30px;
 }
 
-.listatribus .listatribusimportante {
-    font-family: 'lora';
-    padding: 10px 15px 40px 15px;
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 16px;
-    font-style: italic;
+.listatribus .listatribusBtn {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px;
 }
+
 .listatribus .listatribusBtn .btn {
    background-color: #efc394;
    border-color: #e18234;
    border-width: 2px;
 }
+
 .listatribus .listatribusBtn .btn:hover {
     background-color: #e18234;
 }
@@ -773,11 +828,6 @@ transform: scale(1.1,1.02);
         height: 100px;
         padding: 3px 5px;
         margin: 5px 5px 5px 5px;
-        border-style: outset;
-        border-radius: 10px;
-        border-color: #e18234;
-        text-decoration: underline #e18234;
-        text-shadow: 2x 2px 2px 2px black;
     }
 
     #logo h2 {
@@ -826,6 +876,7 @@ transform: scale(1.1,1.02);
         margin: 0 auto;
         padding: 10px;
         margin-bottom: 30px;
+        margin-top: 30px;
     }
 
     .bienvenida .bienvenidaParrafo {
@@ -881,10 +932,14 @@ transform: scale(1.1,1.02);
     .buscartribu {
         /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
         font-size: 1em;
-        height: 100%;
+        height: 150px;
         background-size: cover;
         margin-top: 30px;
+        margin-bottom: 40px;
 
+    }
+    .buscartribu h3 {
+        font-size: 1.2em;
     }
 
     .buscartribu .linktribu {
@@ -892,8 +947,9 @@ transform: scale(1.1,1.02);
         margin: 0 auto;
         width: 60%;
         padding: 5px;
-        font-size: 1em;
+        font-size: 0.8em;
     }
+    
 
     footer {
         font-family: 'lora';
