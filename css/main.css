@@ -267,7 +267,7 @@ transform: scale(1.1,1.02);
 .contenedor .encuentros {
     font-family: 'lora';
     font-size: 1em;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
@@ -315,7 +315,7 @@ transform: scale(1.1,1.02);
 .contenedor .entrevistapsi {
     font-family: 'lora';
     font-size: 1em;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
@@ -337,7 +337,7 @@ transform: scale(1.1,1.02);
 .contenedor .discord {
     font-family: 'lora';
     font-size: 1em;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
@@ -386,7 +386,7 @@ transform: scale(1.1,1.02);
     font-family: 'lora';
     font-size: 20px;
     font-style: italic;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
     border-color: #e79755;
     border-width: 5px;
     border-style: outset;
@@ -529,7 +529,7 @@ transform: scale(1.1,1.02);
     padding: 5px;
     margin: 15px;
     border-style: outset;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
 }
 
 .listavideos iframe {
@@ -603,7 +603,7 @@ transform: scale(1.1,1.02);
     display: inline-block;
     margin: 20px;
     margin-bottom: 30px;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
     width: 500px;
     height: 270px;
     padding: 10px;
