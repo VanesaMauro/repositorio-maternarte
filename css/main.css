@@ -490,7 +490,8 @@ transform: scale(1.1,1.02);
     margin: 0 auto;
     width: 90%;
     padding: 10px;
-    margin-top: 30 px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .listavideos {
@@ -504,7 +505,8 @@ transform: scale(1.1,1.02);
 }
 
 .listavideos h3 {
-    font-size: 22px;
+    font-family: 'lora';
+    font-size: 1.2em;
     font-weight: bolder;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -512,17 +514,9 @@ transform: scale(1.1,1.02);
     text-align: center;
 }
 
-.listavideos p {
-    font-family: 'lora';
-    padding: 0px 15px 10px 15px;
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 18px;
-}
-
 .listavideos div {
-    width: 450px;
-    height: 470px;
+    width: 320px;
+    height: 370px;
     border-width: 5px;
     border-color: #e18234;
     border-radius: 3px;
@@ -533,25 +527,27 @@ transform: scale(1.1,1.02);
 }
 
 .listavideos iframe {
-    width: 400px;
+    width: 300px;
     height: 300px;
     padding: 5px;
+    
 }
 
 .contenidoparaniños h2 {
     /*comienzo apartado para niños*/
-    font-family: 'Dancing Script';
-    font-size: 30px;
-    font-weight: bold;
-    border-style: double;
-    border-color: #e18234;
-    border-width: 5px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 60px 10px 60px 10px;
-    text-decoration: underline;
-    background-color: rgb(231, 181, 74);
-}
+        font-family: 'Dancing Script';
+        padding: 20px 5px;
+        font-size: 2em;
+        background-color: #efc394;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 20px 5px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 1px 1px 1px 1px gray;
+        width: 70%;
+        margin-bottom: 30px;
+    }
 
 .contenidoparaniños p {
     font-family: 'lora';
@@ -563,7 +559,7 @@ transform: scale(1.1,1.02);
 }
 
 .contenidoparaniños .musicaniños {
-    background-color: #e79755;
+    background-image: url(../images/img-noise-361x370.png);
     width: 400px;
     border-radius: 3px;
     border-color: #e18234;
@@ -585,19 +581,22 @@ transform: scale(1.1,1.02);
     justify-content: space-around;
 }
 
+
 .linksexternos .linksexternosniños h2 {
-    /*comienzo paginas web*/
-    font-family: 'Dancing Script';
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    border-style: double;
-    border-color: #e18234;
-    border-width: 5px;
-    border-radius: 5px;
-    background-color: rgb(231, 181, 74);
-    margin: 60px 10px 60px 10px;
-}
+        font-family: 'Dancing Script';
+        padding: 20px 5px;
+        font-size: 2em;
+        background-color: #efc394;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 20px 5px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 1px 1px 1px 1px gray;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
 
 .linksexternos .linksexternosniños div {
     display: inline-block;
@@ -612,6 +611,7 @@ transform: scale(1.1,1.02);
     border-width: 1px;
     border-style: outset;
     box-shadow: 1px 1px 1px 1px gray;
+    
 }
 
 .linksexternos .linksexternosniños div a {
@@ -951,15 +951,8 @@ margin-bottom: 30px;
     }
     
 
-    footer {
-        font-family: 'lora';
-        margin: 15px 25px;
-        font-size: 12px;
-        font-weight: bold;
-        text-align: center;
-
-    }
-
+   
+/*SECCION EMPODERARTE*/
     .bolsadetrabajo .bolsatitulo h2 {
         font-size: 1.5em;
         width: 95%;
@@ -994,4 +987,16 @@ margin-bottom: 30px;
         text-align: justify;
         font-size: 1em;
     }
+    /*SECCION INFORMARTE*/
+    .linksexternos .linksexternosniños div { 
+        width: 270px;
+        height: 270px;
+    }
+    .linksexternos .linksexternosniños div p {
+        display: none;
+    }
+    .contenidoparaniños .musicaniños {
+        width: 300px;
+    }
 }
+
