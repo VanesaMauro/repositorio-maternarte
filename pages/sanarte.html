@@ -27,11 +27,11 @@
 
 <body>
     <header>
-        <div id="logo">
+        <div id="logo"> <!--LOGO-->
             <h1>MarternArte</h1>
             <h2>El arte de ser mamá</h2>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light"> <!--INICIO DE MENU DE NAVEGACION-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="../images/icon-corazón-114702392.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> <!--FIN DE MENU DE NAVEGACION-->
 
         <hr>
     </header>
@@ -83,16 +83,16 @@
                 <input type="text" id="Nombre y Apellido" name="Nombre y Apellido"
                     placeholder="Ingrese su nombre y apellido" required>
             </div>
-            <br>
+            
             <div class="entrevistaFormularioEmail">
-                <label for="Email">Email</label>
+                <label for="Email">Correo Electrónico</label>
                 <input type="text" id="Email" name="Email" placeholder="Ingrese su Email" required>
             </div>
-            <br>
+            
             <div class="entrevistaFormularioConsulta">
                 <label for="Motivo de consulta>">Motivo de consulta</label>
-                <div>
-                    <textarea name="Motivo de consulta" id="Motivo de consulta" cols="15" rows="5" required></textarea>
+                <div class="form-group">
+                    <textarea class="form-control" id="Motivo de consulta" rows="3"></textarea>
                 </div>
             </div>
             <br>
@@ -106,12 +106,16 @@
                 <input type="checkbox" name="terminos">Acepto Terminos y Condiciones
             </div>
             <div class="entrevistaFormularioBotones">
-                <input type="submit" value="Reservar entrevista">
-                <input type="reset" value="Borrar todo">
+                <div>
+                    <input type="submit" value="Reservar entrevista">
+                </div>
+                <div>
+                    <input type="reset" value="Borrar todo">
+                </div>
             </div>
         </form>
     </section>
-
+    <!--FIN DEL FORMULARIO-->
     <hr>
 
     <footer>Copyright © 2022. All rights reserved</footer>

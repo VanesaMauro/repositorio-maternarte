@@ -393,8 +393,10 @@ transform: scale(1.1,1.02);
     border-radius: 5px;
     padding: 25px;
     width: 80%;
+    max-width: 700px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
     -moz-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
     box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
@@ -403,24 +405,41 @@ transform: scale(1.1,1.02);
 .entrevistaFormularioNombre input {
     height: 40px;
     width: 100%;
+    
 }
-
+.entrevistaFormularioEmail, .entrevistaFormularioNombre {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
 .entrevistaFormularioEmail input {
     height: 40px;
     width: 100%;
 }
+.form-control {
+    border: 1px solid black;
+}
+
+.entrevistaFormularioBotones {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 
 .entrevistaFormularioBotones input {
-    padding: 15px;
-    margin-top: 25px;
+    padding: 10px;
+    margin-top: 15px;
     border-radius: 5px;
     border-style: outset;
-    border-width: 4px;
+    border-width: 2px;
     border-color: #e79755;
     font-family: 'lora';
-    font-weight: bolder;
-    font-size: 17px;
-
+    font-size: 0.9em;
+    background-color:#efc394;
+}
+.entrevistaFormularioBotones input:hover {
+    background-color: #e79755;
 }
 
 /*fin de APARTADO SANARTE*/
@@ -560,7 +579,7 @@ transform: scale(1.1,1.02);
 
 .contenidoparaniños .musicaniños {
     background-image: url(../images/img-noise-361x370.png);
-    width: 400px;
+    width: 340px;
     border-radius: 3px;
     border-color: #e18234;
     border-width: 2px;
@@ -572,6 +591,11 @@ transform: scale(1.1,1.02);
 .contenidoparaniños .musicaniños h2 {
     /*comienzo lista spotify*/
     margin-top: 10px;
+    font-family: 'lora';
+    font-size: 1.5em;
+    padding: 7px;
+    width: 95%;
+    
 }
 
 .contenidoparaniños .musicaniños div {
@@ -581,7 +605,11 @@ transform: scale(1.1,1.02);
     justify-content: space-around;
 }
 
-
+.linksexternos .linksexternosniños .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .linksexternos .linksexternosniños h2 {
         font-family: 'Dancing Script';
         padding: 20px 5px;
@@ -598,7 +626,7 @@ transform: scale(1.1,1.02);
     }
 
 
-.linksexternos .linksexternosniños div {
+.linksexternos .linksexternosniños .links div {
     display: inline-block;
     margin: 20px;
     margin-bottom: 30px;
@@ -614,7 +642,7 @@ transform: scale(1.1,1.02);
     
 }
 
-.linksexternos .linksexternosniños div a {
+.linksexternos .linksexternosniños .links div a {
     background-color: #e79755;
     display: flex;
     justify-content: center;
@@ -988,7 +1016,7 @@ margin-bottom: 30px;
         font-size: 1em;
     }
     /*SECCION INFORMARTE*/
-    .linksexternos .linksexternosniños div { 
+    .linksexternos .linksexternosniños .links div { 
         width: 270px;
         height: 270px;
     }
@@ -997,6 +1025,10 @@ margin-bottom: 30px;
     }
     .contenidoparaniños .musicaniños {
         width: 300px;
+    }
+    /*SECCION SANARTE*/
+    .entrevistaFormulario {
+        font-size: 1em;
     }
 }
 
