@@ -153,7 +153,7 @@ hr {
     color: brown;
     border-style: none;
     background-color: #e7b54a;
-    background-image: url(../images/textura.png);
+    background-image: url(../images/img-noise-361x370.png);
     padding: 5px;
     border-radius: 8px;
 }
@@ -170,7 +170,7 @@ hr {
     color: black;
 }
 .buscartribu .linktribu .btn {
-    background-color: #efc394;
+    background-color: #faebd7;
     border-color: #e18234;
     border-width: 3px;
     border-style: outset;
@@ -181,7 +181,7 @@ hr {
 }
 
 .buscartribu .linktribu .btn:hover {
-    background-color: #e18234;
+    background-color:#efc394 ;
 }
 
 /*fin contenedor tribu*/
@@ -233,8 +233,6 @@ footer {
 }
 
 .contenedor .asides {
-    display: flex;
-    flex-wrap: wrap;
     width: 300px;
     margin: 0 auto;
     margin-right: 20px;
@@ -271,7 +269,7 @@ transform: scale(1.1,1.02);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
-    height: 620px;
+    height: 630px;
     margin-top: 20px;
     text-align: center;
     border-color: #e79755;
@@ -305,7 +303,7 @@ transform: scale(1.1,1.02);
     margin: 0 auto;
     margin-top: 20px;
     color: black;
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 2px 2px 2px 2px gray;
 }
 
 .contenedor .encuentros a:hover {
@@ -319,8 +317,7 @@ transform: scale(1.1,1.02);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
-    height: 400px;
-    box-shadow: 2px 2px 2px 2px gray;
+    height: 370px;
     text-align: center;
     border-color: #e79755;
     margin-right: 15px;
@@ -333,6 +330,24 @@ transform: scale(1.1,1.02);
 .contenedor .entrevistapsi:hover {
     transform: scale(1.1, 1.03);
 }
+.contenedor .entrevistapsi a {
+    text-decoration: none;
+    font-size: 1.2em;
+    border-style: double;
+    border-radius: 3px;
+    border-color: #e18234;
+    border-width: 2px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: black;
+    box-shadow: 2px 2px 2px 2px gray;
+    
+}
+
+.contenedor .entrevistapsi a:hover {
+    background-color: #efc394;
+}
 
 .contenedor .discord {
     font-family: 'lora';
@@ -341,7 +356,7 @@ transform: scale(1.1,1.02);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
-    height: 400px;
+    height: 460px;
     box-shadow: 2px 2px 2px 2px gray;
     text-align: center;
     border-color: #e79755;
@@ -354,6 +369,23 @@ transform: scale(1.1,1.02);
 
 .contenedor .discord:hover {
     transform: scale(1.1, 1.03);
+}
+.contenedor .discord a {
+    text-decoration: none;
+    font-size: 1.2em;
+    border-style: double;
+    border-radius: 3px;
+    border-color: #e18234;
+    border-width: 2px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: black;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.contenedor .discord a:hover {
+    background-color: #efc394;
 }
 
 /*comienzo de css APARTADO SANARTE*/
@@ -368,7 +400,7 @@ transform: scale(1.1,1.02);
     padding: 20px 5px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 2px 2px 2px 2px gray;
     width: 70%;
 }
 
@@ -943,19 +975,21 @@ margin-bottom: 30px;
         font-size: 1em;
         height: 100%;
         width: 100%;
+        margin-bottom: 10px;
     }
-
     .contenedor .entrevistapsi {
         font-size: 1em;
         height: 100%;
         width: 100%;
+        margin-bottom: 10px;
     }
-
     .contenedor .discord {
         font-size: 1em;
         height: 100%;
         width: 100%;
+        margin-bottom: 10px;
     }
+
 
     .buscartribu {
         /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
@@ -988,9 +1022,16 @@ margin-bottom: 30px;
         padding: 10px;
         margin-top: 20px;
     }
+    .bolsadetrabajo .bolsaparrafo p {
+        font-size: 1em;
+    }
     .pregempoderarte h2 {
         font-size: 1.5em;
     }
+    .pregempoderarte .respempoderarte p {
+        font-size: 1em;
+    }
+
     .contmultim h2 {
         font-size: 1.5em;
         width: 95%;
@@ -999,9 +1040,15 @@ margin-bottom: 30px;
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
     .pregcontenido h2 {
         font-size: 1.5em;
     }
+
+    .contmultim .contmultimtexto p {
+        font-size: 0.9em; 
+    }
+
     .entrevista h2 {
         font-size: 1.5em;
         width: 95%;
@@ -1016,6 +1063,10 @@ margin-bottom: 30px;
         font-size: 1em;
     }
     /*SECCION INFORMARTE*/
+
+    .contmultim .contmultimtitulo h2 {
+        font-size: 1.5em;
+    }
     .linksexternos .linksexternosniños .links div { 
         width: 270px;
         height: 270px;
@@ -1029,6 +1080,42 @@ margin-bottom: 30px;
     /*SECCION SANARTE*/
     .entrevistaFormulario {
         font-size: 1em;
+    }
+    /*SECCION CONECTARTE*/
+    .redesapoyo h2 {
+        font-size: 1.5em;
+    }
+    .redesapoyo p {
+            line-height: 1.5;
+            text-align: justify;
+            font-size: 1em;
+    }
+    footer {
+        font-size: 1em;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #logo {
+        font-size: 40px;
+        background-size: 100%;
+        height: 200px;
+        
+        
+    }
+    #logo h2 {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .bienvenida .bienvenidaParrafo {
+        /*fin de mensaje bienvenida*/
+        font-size: 1.2em;
+    }
+    .mensajeinicial .parrafo {
+        font-size: 1em;
+    }
+    .mensajeinicial h2 {
+        font-size: 1.5em;
     }
 }
 
