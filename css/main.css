@@ -169,19 +169,19 @@ hr {
     text-decoration: none;
     color: black;
 }
+
 .buscartribu .linktribu .btn {
-    background-color: #faebd7;
+    background-image: url(../images/img-noise-361x370.png);
     border-color: #e18234;
     border-width: 3px;
     border-style: outset;
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.2em;
-   
 }
 
 .buscartribu .linktribu .btn:hover {
-    background-color:#efc394 ;
+    background-color: #efc394;
 }
 
 /*fin contenedor tribu*/
@@ -194,6 +194,7 @@ footer {
     font-weight: bold;
     text-align: center;
 }
+
 /*grid layout del home*/
 .contenedor {
     display: grid;
@@ -330,6 +331,7 @@ transform: scale(1.1,1.02);
 .contenedor .entrevistapsi:hover {
     transform: scale(1.1, 1.03);
 }
+
 .contenedor .entrevistapsi a {
     text-decoration: none;
     font-size: 1.2em;
@@ -342,7 +344,7 @@ transform: scale(1.1,1.02);
     margin-top: 20px;
     color: black;
     box-shadow: 2px 2px 2px 2px gray;
-    
+
 }
 
 .contenedor .entrevistapsi a:hover {
@@ -370,6 +372,7 @@ transform: scale(1.1,1.02);
 .contenedor .discord:hover {
     transform: scale(1.1, 1.03);
 }
+
 .contenedor .discord a {
     text-decoration: none;
     font-size: 1.2em;
@@ -413,6 +416,7 @@ transform: scale(1.1,1.02);
     width: 90%;
     margin: 0 auto;
 }
+
 /*FORMULARIO*/
 .entrevistaFormulario {
     font-family: 'lora';
@@ -437,17 +441,21 @@ transform: scale(1.1,1.02);
 .entrevistaFormularioNombre input {
     height: 40px;
     width: 100%;
-    
+
 }
-.entrevistaFormularioEmail, .entrevistaFormularioNombre {
+
+.entrevistaFormularioEmail,
+.entrevistaFormularioNombre {
     margin-bottom: 15px;
     margin-top: 15px;
-    
+
 }
+
 .entrevistaFormularioEmail input {
     height: 40px;
     width: 100%;
 }
+
 .form-control {
     border: 1px solid black;
 }
@@ -456,7 +464,7 @@ transform: scale(1.1,1.02);
     margin: 30px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 .entrevistaFormularioBotones input {
@@ -468,8 +476,9 @@ transform: scale(1.1,1.02);
     border-color: #e79755;
     font-family: 'lora';
     font-size: 0.9em;
-    background-color:#efc394;
+    background-color: #efc394;
 }
+
 .entrevistaFormularioBotones input:hover {
     background-color: #e79755;
 }
@@ -581,24 +590,24 @@ transform: scale(1.1,1.02);
     width: 300px;
     height: 300px;
     padding: 5px;
-    
+
 }
 
 .contenidoparaniños h2 {
     /*comienzo apartado para niños*/
-        font-family: 'Dancing Script';
-        padding: 20px 5px;
-        font-size: 2em;
-        background-color: #efc394;
-        margin: 0 auto;
-        margin-top: 30px;
-        padding: 20px 5px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 1px 1px 1px 1px gray;
-        width: 70%;
-        margin-bottom: 30px;
-    }
+    font-family: 'Dancing Script';
+    padding: 20px 5px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
+    margin-bottom: 30px;
+}
 
 .contenidoparaniños p {
     font-family: 'lora';
@@ -627,7 +636,7 @@ transform: scale(1.1,1.02);
     font-size: 1.5em;
     padding: 7px;
     width: 95%;
-    
+
 }
 
 .contenidoparaniños .musicaniños div {
@@ -642,20 +651,21 @@ transform: scale(1.1,1.02);
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .linksexternos .linksexternosniños h2 {
-        font-family: 'Dancing Script';
-        padding: 20px 5px;
-        font-size: 2em;
-        background-color: #efc394;
-        margin: 0 auto;
-        margin-top: 30px;
-        padding: 20px 5px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 1px 1px 1px 1px gray;
-        width: 70%;
-        margin-bottom: 30px;
-    }
+    font-family: 'Dancing Script';
+    padding: 20px 5px;
+    font-size: 2em;
+    background-color: #efc394;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 70%;
+    margin-bottom: 30px;
+}
 
 
 .linksexternos .linksexternosniños .links div {
@@ -671,7 +681,7 @@ transform: scale(1.1,1.02);
     border-width: 1px;
     border-style: outset;
     box-shadow: 1px 1px 1px 1px gray;
-    
+
 }
 
 .linksexternos .linksexternosniños .links div a {
@@ -710,8 +720,9 @@ transform: scale(1.1,1.02);
 /*comienzo css APARTADO CONECTARTE*/
 
 .redesapoyo {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .redesapoyo h2 {
     font-family: 'Dancing Script';
     padding: 20px 5px;
@@ -724,29 +735,62 @@ margin-bottom: 30px;
     text-align: center;
     box-shadow: 1px 1px 1px 1px gray;
     width: 70%;
-    }
-    
+}
+
 .redesapoyo p {
     font-family: 'lora';
-    padding: 30px 15px 40px 15px;
+    padding: 20px 15px;
     line-height: 1.5;
     text-align: justify;
     font-size: 1.2em;
     width: 90%;
     margin: 0 auto;
-    }
+}
 
-.encuentrosSemestrales, .encuentrosDiscord {
-    border-color:#e18234;
+.encuentrosSemestrales,
+.encuentrosDiscord {
+    border-color: #e18234;
     border-radius: 5px;
     border-style: outset;
     margin: 0 auto;
+    background-image: url(../images/img-noise-361x370.png);
 }
 
-.encuentrosSemestrales .fecha {
+.encuentrosSemestrales .fecha,
+.temadiscord {
     margin: 0 auto;
+    text-decoration: underline;
+    text-align: center;
 }
 
+.redesapoyo .encuentrosSemestrales .mapa iframe {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.encuentrosDiscord .temadiscord {
+    text-align: center;
+}
+
+.encuentrosDiscord .btndiscord {
+    background-image: url(../images/discord2m.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.encuentrosDiscord .btndiscord a {
+    text-decoration: none;
+    color: transparent;
+    font-size: 3em;
+    text-align: center;
+}
 
 .listatribus .listatribusTitulo h2 {
     font-family: 'Dancing Script';
@@ -761,6 +805,7 @@ margin-bottom: 30px;
     box-shadow: 1px 1px 1px 1px gray;
     width: 70%;
 }
+
 .listatribus .listatribusTitulo p {
     font-style: italic;
     margin-top: 30px;
@@ -769,6 +814,7 @@ margin-bottom: 30px;
     font-size: 1em;
     font-family: 'lora';
 }
+
 .listatribus .listatribusPregunta h3 {
     font-family: 'Dancing Script';
     font-size: 2em;
@@ -792,6 +838,7 @@ margin-bottom: 30px;
     width: 90%;
     margin: 0 auto;
 }
+
 .listatribusImportante p {
     font-family: 'lora';
     font-size: 1em;
@@ -810,13 +857,17 @@ margin-bottom: 30px;
 }
 
 .listatribus .listatribusBtn .btn {
-   background-color: #efc394;
-   border-color: #e18234;
-   border-width: 2px;
+    background-color: #efc394;
+    border-color: #e18234;
+    border-width: 2px;
 }
 
 .listatribus .listatribusBtn .btn:hover {
     background-color: #e18234;
+}
+
+.buscartribu {
+    margin-bottom: 40px;
 }
 
 
@@ -977,12 +1028,14 @@ margin-bottom: 30px;
         width: 100%;
         margin-bottom: 10px;
     }
+
     .contenedor .entrevistapsi {
         font-size: 1em;
         height: 100%;
         width: 100%;
         margin-bottom: 10px;
     }
+
     .contenedor .discord {
         font-size: 1em;
         height: 100%;
@@ -1000,6 +1053,7 @@ margin-bottom: 30px;
         margin-bottom: 40px;
 
     }
+
     .buscartribu h3 {
         font-size: 1.2em;
     }
@@ -1011,10 +1065,10 @@ margin-bottom: 30px;
         padding: 5px;
         font-size: 0.8em;
     }
-    
 
-   
-/*SECCION EMPODERARTE*/
+
+
+    /*SECCION EMPODERARTE*/
     .bolsadetrabajo .bolsatitulo h2 {
         font-size: 1.5em;
         width: 95%;
@@ -1022,12 +1076,15 @@ margin-bottom: 30px;
         padding: 10px;
         margin-top: 20px;
     }
-    .bolsadetrabajo .bolsaparrafo p {
+
+    .bolsadetrabajo .bolsaparrafo {
         font-size: 1em;
     }
+
     .pregempoderarte h2 {
         font-size: 1.5em;
     }
+
     .pregempoderarte .respempoderarte p {
         font-size: 1em;
     }
@@ -1046,7 +1103,7 @@ margin-bottom: 30px;
     }
 
     .contmultim .contmultimtexto p {
-        font-size: 0.9em; 
+        font-size: 0.9em;
     }
 
     .entrevista h2 {
@@ -1057,65 +1114,100 @@ margin-bottom: 30px;
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
     .entrevista p {
         line-height: 1.5;
         text-align: justify;
         font-size: 1em;
     }
+
     /*SECCION INFORMARTE*/
 
     .contmultim .contmultimtitulo h2 {
         font-size: 1.5em;
     }
-    .linksexternos .linksexternosniños .links div { 
+
+    .linksexternos .linksexternosniños .links div {
         width: 270px;
         height: 270px;
     }
+
     .linksexternos .linksexternosniños div p {
         display: none;
     }
+
     .contenidoparaniños .musicaniños {
         width: 300px;
     }
+
     /*SECCION SANARTE*/
     .entrevistaFormulario {
         font-size: 1em;
     }
+
     /*SECCION CONECTARTE*/
     .redesapoyo h2 {
         font-size: 1.5em;
     }
+
     .redesapoyo p {
-            line-height: 1.5;
-            text-align: justify;
-            font-size: 1em;
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 1em;
     }
+
+    .listatribus .listatribusTitulo h2 {
+        font-size: 1.5em;
+    }
+
+    .listatribus .listatribusPregunta h3 {
+        font-size: 1.5em;
+    }
+
+    .listatribus .listatribusPregunta p {
+        font-size: 1em;
+    }
+
     footer {
         font-size: 1em;
     }
-    
+
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
     #logo {
         font-size: 40px;
         background-size: 100%;
         height: 200px;
-        
-        
     }
+
     #logo h2 {
         font-size: 30px;
         margin-top: 5px;
     }
+
     .bienvenida .bienvenidaParrafo {
         /*fin de mensaje bienvenida*/
         font-size: 1.2em;
     }
+
     .mensajeinicial .parrafo {
         font-size: 1em;
     }
+
     .mensajeinicial h2 {
         font-size: 1.5em;
     }
-}
 
+    .buscartribu .linktribu {
+        margin-top: 20px;
+    }
+
+    .buscartribu {
+        margin-bottom: 30px;
+    }
+
+    .listatribus .listatribusPregunta p {
+        font-size: 1em;
+    }
+}
