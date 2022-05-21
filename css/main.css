@@ -239,10 +239,6 @@ footer {
     margin-right: 20px;
 }
 
-/*.contenedor .asides:hover {
-transform: scale(1.1,1.02);
-}*/
-
 .contenedor .asides h2 {
     font-size: 1.5em;
     background-color: #efc394;
@@ -270,8 +266,9 @@ transform: scale(1.1,1.02);
     border-radius: 3px;
     border-width: 2px;
     border-style: solid;
-    height: 630px;
+    height: 610px;
     margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
     border-color: #e79755;
     margin-right: 15px;
@@ -322,6 +319,7 @@ transform: scale(1.1,1.02);
     text-align: center;
     border-color: #e79755;
     margin-right: 15px;
+    margin-bottom: 40px;
     padding: 5px;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
     -moz-box-shadow: 10px 10px 10px 0px rgba(115, 113, 115, 0.71);
