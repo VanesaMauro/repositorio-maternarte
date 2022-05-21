@@ -929,7 +929,7 @@ transform: scale(1.1,1.02);
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-    /*MOBILEindex*/
+    /*MOBILE INDEX*/
     #logo {
         text-align: left;
         font-family: 'Dancing Script';
@@ -1042,7 +1042,12 @@ transform: scale(1.1,1.02);
         width: 100%;
         margin-bottom: 10px;
     }
-
+    .contenedor .entrevistapsi a, .contenedor .encuentros a, .contenedor .discord a {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #282828;
+    }
 
     .buscartribu {
         /* inicio cajita con foto de tribu y boton que redirige a pagina Encontrarte del sitio */
@@ -1068,7 +1073,7 @@ transform: scale(1.1,1.02);
 
 
 
-    /*SECCION EMPODERARTE*/
+    /*MOBILE SECCION EMPODERARTE*/
     .bolsadetrabajo .bolsatitulo h2 {
         font-size: 1.5em;
         width: 95%;
@@ -1121,12 +1126,24 @@ transform: scale(1.1,1.02);
         font-size: 1em;
     }
 
-    /*SECCION INFORMARTE*/
+    /*MOBILE SECCION INFORMARTE*/
 
     .contmultim .contmultimtitulo h2 {
         font-size: 1.5em;
     }
 
+    .pregcontenido .contmultimresp p {
+        font-size: 1em;
+    }
+    .catalogovideos .videossubtitulo h2, .linksexternos .linksexternosniños h2 {
+        font-size: 1.5em;
+    }
+    .contenidoparaniños h2 {
+        font-size: 1.5em;
+    }
+    .contenidoparaniños .musicaniños h2 {
+        font-size: 1.2em;
+    }
     .linksexternos .linksexternosniños .links div {
         width: 270px;
         height: 270px;
@@ -1139,13 +1156,16 @@ transform: scale(1.1,1.02);
     .contenidoparaniños .musicaniños {
         width: 300px;
     }
+    .contenidoparaniños .musicaniños div iframe {
+        height: 140px;
+    }
 
-    /*SECCION SANARTE*/
+    /*MOBILE SECCION SANARTE*/
     .entrevistaFormulario {
         font-size: 1em;
     }
 
-    /*SECCION CONECTARTE*/
+    /*MOBILE SECCION CONECTARTE*/
     .redesapoyo h2 {
         font-size: 1.5em;
     }
@@ -1173,6 +1193,7 @@ transform: scale(1.1,1.02);
     }
 
 }
+/*MEDIA QUERIES TABLET*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
     #logo {
@@ -1187,7 +1208,6 @@ transform: scale(1.1,1.02);
     }
 
     .bienvenida .bienvenidaParrafo {
-        /*fin de mensaje bienvenida*/
         font-size: 1.2em;
     }
 
@@ -1200,7 +1220,7 @@ transform: scale(1.1,1.02);
     }
 
     .buscartribu .linktribu {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .buscartribu {
@@ -1209,5 +1229,8 @@ transform: scale(1.1,1.02);
 
     .listatribus .listatribusPregunta p {
         font-size: 1em;
+    }
+    .contenedor .encuentros, .contenedor .entrevistapsi, .contenedor .discord {
+        margin-bottom: 70px;
     }
 }
